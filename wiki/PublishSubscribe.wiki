@@ -1,0 +1,23 @@
+#summary A publish/subscribe interface between different components
+
+A publish/subscribe interface links different components together. This is used for packets going to higher level protocol processing. Higher levels subscribe to publishers of lower levels.
+
+The publishers define the type T that can be subscribed to. For example, EthernetPort provides subscription to different Ethertype.
+
+
+Publisher interface
+{{{
+public interface Publisher<T, H> {
+	void subscribe(T type, H handler);
+	
+	// Default handler
+	void subscribe(H handler);
+}
+}}}
+
+Handler interface
+{{{
+public interface Handler<P> {
+	void handle(P packet);
+}
+}}}

@@ -1,7 +1,11 @@
 #summary Instruction for building from the source code
 
-Required packages in ThirdParty directory:
-  ThirdParty/jython2.5.1
+Required packages in 3rd directory:
+{{{
+ThirdParty/jython2.5.1
+}}}
 
 Build with:
-  scons
+{{{
+scons
+}}}

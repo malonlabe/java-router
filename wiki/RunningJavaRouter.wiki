@@ -4,4 +4,14 @@ I use vmware fusion to simulate a network for testing.
 
 I created one VM to run Java Router, and another 2 VMs acting as clients.
 
-I used tokamak to configure 2 separate networks and connected Java Router in between.
+I used tokamak to configure 2 separate networks (vmnet2 and vmnet3) and connected Java Router in between:
+
+{{{
+VM@Work Tokamak 2.0.0: Display settings
+The following virtual networks have been defined:
+
+. vmnet1 is a host-only network on private subnet 172.16.29.0.
+. vmnet2 is a host-only network on private subnet 10.1.0.0.
+. vmnet3 is a host-only network on private subnet 10.2.0.0.
+. vmnet8 is a NAT network on private subnet 172.16.211.0.
+}}}

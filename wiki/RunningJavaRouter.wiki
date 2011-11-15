@@ -14,4 +14,16 @@ The following virtual networks have been defined:
 . vmnet2 is a host-only network on private subnet 10.1.0.0.
 . vmnet3 is a host-only network on private subnet 10.2.0.0.
 . vmnet8 is a NAT network on private subnet 172.16.211.0.
+
+VM@Work Tokamak 2.0.0: Extended network scripting - Dave Parsons
+Host-only/NAT networking on vmnet1 using 172.16.29.1/255.255.255.0 is running
+DHCP server on vmnet1 is running
+Host-only/NAT networking on vmnet2 using 10.1.0.1/255.255.255.0 is running
+DHCP server on vmnet2 is running
+Host-only/NAT networking on vmnet3 using 10.2.0.1/255.255.255.0 is running
+DHCP server on vmnet3 is running
+Host-only/NAT networking on vmnet8 using 172.16.211.1/255.255.255.0 is running
+DHCP server on vmnet8 is running
+NAT networking on vmnet8 is running
+
 }}}

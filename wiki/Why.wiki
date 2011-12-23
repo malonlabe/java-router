@@ -1,0 +1,18 @@
+#Why I created the project
+
+= Introduction =
+
+The project was originally intended to prove that Java is just as fast as C.
+
+= Components =
+Traditionally, router software is a big piece of code.
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages

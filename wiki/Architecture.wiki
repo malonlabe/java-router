@@ -6,6 +6,11 @@ The Java Router uses a callback approach to process packets. The network packets
 
 Similar to a realtime system, if possible, each packet is processed until it is being routed out of the box.
 
+= RawSocket =
+
+In order to receive all packets from the network, a native raw socket module is implemented.
+The module is now written for Linux only and for ethernet only. It sets the ethernet port to promiscuous mode and open a raw socket to receive packets.
+
 = Configuration =
 
 Jython is simple enough to be embedded as a configuration interface to run Java Router in anyway the users need. Certain templates are provided in order to simplify the main configuration.

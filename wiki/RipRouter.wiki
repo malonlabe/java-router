@@ -1,0 +1,8 @@
+#summary Flow of RipRouter
+
+= RipRouter flow =
+This diagram depicts the flow of the sample RipRouter.
+ * RipProcessor simplified the RIP protocol by just sending and receiving periodic update messages.
+ * DHCP and ICMP are also included for easier testing from network clients.
+
+https://java-router.googlecode.com/svn/wiki/RipRouter.png

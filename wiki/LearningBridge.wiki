@@ -2,9 +2,9 @@
 
 = !LearningBridge sample =
 Simple bridge
-* Very small code to show basic functionality
-* Bridges and learns mac addresses from each port
-* Simplified, so does not handle loops
+ * Very small code to show basic functionality
+ * Bridges and learns mac addresses from each port
+ * Simplified, so does not handle loops
 
 == Run ==
 {{{

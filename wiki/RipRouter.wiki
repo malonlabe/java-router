@@ -6,12 +6,10 @@
  * !RipProcessor does not handle loop current
  * DHCP and ICMP are also included for easier testing from network clients
 
-== To run ==
+== Run ==
 {{{
 sudo LD_LIBRARY_PATH=build/deploy/lib java -cp "build/deploy/lib/*" code.messy.sample.RipRouter eth1 10.1.0.1 24 eth2 10.2.0.1 24
 }}}
-
-
 
 == Flow diagram ==
 https://java-router.googlecode.com/svn/wiki/RipRouter.png

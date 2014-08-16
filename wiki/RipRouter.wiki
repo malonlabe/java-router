@@ -1,7 +1,7 @@
 #summary RipRouter sample
 
 = !RipRouter sample =
-!RipRouter sample can talk to other RipRouters to build up routing table
+!RipRouter sample can talk to other !RipRouters to build up routing table
  * !RipProcessor simplified the RIP protocol by just sending and receiving periodic update messages
  * !RipProcessor does not handle loop current
  * DHCP and ICMP are also included for easier testing from network clients
